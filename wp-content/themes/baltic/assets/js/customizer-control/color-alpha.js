@@ -1,0 +1,51 @@
+( function( $, api ) {
+
+	$(window).on('load', function() {
+	  	$('html').addClass('colorpicker-ready');
+	});
+
+	api.controlConstructor['baltic-color'] = api.Control.extend({
+
+		ready: function() {
+
+			var control = this,
+				value,
+				thisInput,
+				inputDefault,
+				changeAction;
+
+			this.container.find('.baltic-color-picker-alpha' ).wpColorPicker({
+				/**
+			     * @param {Event} event - standard $ event, produced by whichever
+			     * control was changed.
+			     * @param {Object} ui - standard $ UI object, with a color member
+			     * containing a Color.js object.
+			     */
+			    change: function (event, ui) {
+			        var element = event.target;
+			        var color = ui.color.toString();
+
+			        if ( $('html').hasClass('colorpicker-ready') ) {
+						control.setting.set( color );
+			        }
+			    },
+
+			    /**
+			     * @param {Event} event - standard $ event, produced by "Clear"
+			     * button.
+			     */
+			    clear: function (event) {
+			        var element = $(event.target).closest('.wp-picker-input-wrap').find('.wp-color-picker')[0];
+			        var color = '';
+
+			        if (element) {
+			            // Add your code here
+			        	control.setting.set( color );
+			        }
+			    }
+			});
+		}
+	});
+
+
+})( jQuery, wp.customize );

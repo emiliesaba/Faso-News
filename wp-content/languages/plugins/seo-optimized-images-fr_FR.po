@@ -1,0 +1,213 @@
+# Translation of Plugins - Seo Optimized Images - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Seo Optimized Images - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-28 06:34:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Seo Optimized Images - Stable (latest release)\n"
+
+#: seo-optimized-images-settings.php:99 seo-optimized-images-settings.php:124
+#: seo-optimized-images-settings.php:139 seo-optimized-images-settings.php:156
+msgid "YES"
+msgstr "OUI"
+
+#: seo-optimized-images-settings.php:100 seo-optimized-images-settings.php:125
+#: seo-optimized-images-settings.php:140 seo-optimized-images-settings.php:157
+msgid "NO"
+msgstr "NON"
+
+#: seo-optimized-images-settings.php:146
+msgid "Do you want to optimize post/page thumbnail images or to make images SEO friendly?"
+msgstr "Voulez-vous optimiser les images de miniature d’article/page ou les optimiser pour le SEO ?"
+
+#: seo-optimized-images-settings.php:221
+msgid "1. According to <a target = \"_blank\" href = \"http://googlewebmastercentral.blogspot.in/2007/12/using-alt-attributes-smartly.html\"> this post </a> on the Google Webmaster Blog, Google tends to focus on the information in the ALT text. Creating a optimized alt tags can bring more traffic from Search Engines"
+msgstr "1. Selon <a target = \"_blank\" href = \"http://googlewebmastercentral.blogspot.in/2007/12/using-alt-attributes-smartly.html\">cet article</a> sur le blog Google Webmaster,  Google a tendance à se concentrer sur les informations dans le texte d’alt. La création d'une balise alt optimisée peut apporter plus de trafic des moteurs de recherche."
+
+#: seo-optimized-images-settings.php:241
+msgid "1. For any queries contact us via the <a href='https://wordpress.org/support/plugin/seo-optimized-images' target='_blank'> support forums.</a>"
+msgstr "1. Pour toute demande, contactez nous via le <a href='https://wordpress.org/support/plugin/seo-optimized-images' target='_blank'>forum de support</a>"
+
+#: seo-optimized-images-settings.php:243
+msgid "2. If you like our plugin and support then kindly share your <a href=“https://wordpress.org/support/view/plugin-reviews/seo-optimized-images” target=“_blank”>feedback</a>. Your feedback is valuable."
+msgstr "2. Si vous aimez et supportez notre extension, alors partagez gentiment votre <a href=“https://wordpress.org/support/view/plugin-reviews/seo-optimized-images” target=“_blank”>ressenti</a>. Vos retours sont précieux."
+
+#: seo-optimized-images-settings.php:268
+msgid "The package supports <b>Featured Images, Custom Post Images and Custom Rules.</b> The price of this package is <b>$59</b>"
+msgstr "La formule prend en charge les <b>images mises en avant, les images de contenu personnalisé et les règles personnalisées.</b> Le prix de cette formule est de <b>$59</b>"
+
+#: seo-optimized-images-settings.php:270
+msgid "The package supports <b>WooCommerce Images, Featured Images, Custom Post Images and Custom Rules.</b> The price of this package is <b>$79</b>"
+msgstr "La formule prend en charge les <b>images WooCommerce, les images mises en avant, les images de contenu personnalisé et les règles personnalisées.</b> Le prix de cette formule est de <b>$79</b>."
+
+#: seo-optimized-images-settings.php:272
+msgid "Support and updates will be given for 1 year.<br>If you need updates and support after one year, then simply renew your subscription. If not, then you may still keep using the plugin."
+msgstr "Le support et les mises à jour sont fournis pendant 1 an.<br> Si vous avez besoin de mises à jour et de support après cette période, renouvelez simplement votre abonnement. Sinon, vous pourrez toujours utiliser l’extension."
+
+#: seo-optimized-images-settings.php:275
+msgid "If you are interested, buy the plugin <a href=\"http://webriti.com/seo-optimized-images/\" target=\"_blank\">here</a>. Once purchase is completed, <a href=\"http://webriti.com/amember/login/index\" target=\"_blank\">login</a> to your account and download the latest package."
+msgstr "Si vous êtes intéressé·e, achetez l’extension <a href=\"http://webriti.com/seo-optimized-images/\" target=\"_blank\">ici</a>. Une fois votre achat effectué, <a href=\"http://webriti.com/amember/login/index\" target=\"_blank\">connectez-vous</a> à votre compte et téléchargez la dernière version."
+
+#: seo-optimized-images-settings.php:38
+msgid "Settings"
+msgstr "Réglages"
+
+#. Plugin Name of the plugin
+#: seo-optimized-images-settings.php:43 seo-optimized-images.php:25
+msgid "SEO Optimized Images"
+msgstr "SEO Optimized Images"
+
+#: seo-optimized-images-settings.php:53 seo-optimized-images-settings.php:77
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: seo-optimized-images-settings.php:55
+msgid "FAQ"
+msgstr "FAQ"
+
+#: seo-optimized-images-settings.php:57 seo-optimized-images-settings.php:236
+msgid "Support"
+msgstr "Support"
+
+#: seo-optimized-images-settings.php:59 seo-optimized-images-settings.php:254
+msgid "Upgrade to PRO"
+msgstr "Passez en PRO   "
+
+#: seo-optimized-images-settings.php:85
+msgid "Alt attribute value"
+msgstr "Valeur d’attribut alt"
+
+#: seo-optimized-images-settings.php:87
+msgid "The Alt attributes will be dynamically replaced by the above value."
+msgstr "Les attributs alt seront dynamiquement remplacés par la valeur ci-dessus."
+
+#: seo-optimized-images-settings.php:89 seo-optimized-images-settings.php:208
+msgid "Will insert post title."
+msgstr "Insérera le titre de l’article."
+
+#: seo-optimized-images-settings.php:89 seo-optimized-images-settings.php:207
+msgid "Will insert image name."
+msgstr "Insérera  le nom de l’image."
+
+#: seo-optimized-images-settings.php:90 seo-optimized-images-settings.php:209
+msgid "Will insert post categories."
+msgstr "Insérera les catégories de l’article."
+
+#: seo-optimized-images-settings.php:96
+msgid "Override existing alt tag"
+msgstr "Écraser la balise alt existante"
+
+#: seo-optimized-images-settings.php:106
+msgid "Do you want to override existing alt tags?"
+msgstr "Voulez-vous outrepasser la balise alt existante ?"
+
+#: seo-optimized-images-settings.php:113
+msgid "Title attribute value"
+msgstr "Valeur d’attribut de titre"
+
+#: seo-optimized-images-settings.php:115
+msgid "The Title attribute will be dynamically replaced by the above value."
+msgstr "L’attribut de titre sera dynamiquement remplacé par la valeur ci-dessus."
+
+#: seo-optimized-images-settings.php:121
+msgid "Override existing title tag"
+msgstr "Écraser la balise titre existante"
+
+#: seo-optimized-images-settings.php:131
+msgid "Do you want to override existing title tags?"
+msgstr "Voulez-vous outrepasser la balise titre existante ?"
+
+#: seo-optimized-images-settings.php:136
+msgid "Override alt and title attributes of feature/thumbnail images."
+msgstr "Écraser les attributs alt et titre des images de miniatures/mises en avant."
+
+#: seo-optimized-images-settings.php:146 seo-optimized-images-settings.php:163
+#: seo-optimized-images-settings.php:171
+msgid "Available In PRO"
+msgstr "Disponible en version PRO"
+
+#: seo-optimized-images-settings.php:153
+msgid "Override alt and title tags of WooCommerce products images."
+msgstr "Écraser les balises alt et titre des images des produits WooCommerce."
+
+#: seo-optimized-images-settings.php:163
+msgid "Do you want to optimize WooCommerce images or make them search engine friendly?"
+msgstr "Voulez-vous optimiser les images WooCommerce ou les optimiser pour le SEO ?"
+
+#: seo-optimized-images-settings.php:168
+msgid "Enable Yoast primary category"
+msgstr "Activer la catégorie principale Yoast"
+
+#: seo-optimized-images-settings.php:171
+msgid "Show only primary category created by Yoast SEO Plugin."
+msgstr "Afficher uniquement la catégorie principale créée par l’extension Yoast SEO."
+
+#: seo-optimized-images-settings.php:200
+msgid "How does it work?"
+msgstr "Comment cela fonctionne ?"
+
+#: seo-optimized-images-settings.php:205
+msgid "1. The plugin dynamically replaces the alt tags with the pattern specified by you. It makes no changes to the database."
+msgstr "1. L’extension remplace dynamiquement les balises alt avec la structure que vous avez spécifiée. Cela n’effectue aucun changement dans la base de données."
+
+#: seo-optimized-images-settings.php:206
+msgid "2. Since there are no changes to the database, one can have different alt tags for same images on different pages/posts."
+msgstr "2. Puisqu’il n’y a aucun changement dans la base de données, il peut y a voir différentes balises alt pour les mêmes images sur des pages/articles différents."
+
+#: seo-optimized-images-settings.php:216
+msgid "Why optimize alt tags?"
+msgstr "Pourquoi optimiser les balises alt ?"
+
+#: seo-optimized-images-settings.php:223
+msgid "2. Take note that the plugin does not make changes to the database. It dynamically replaces the tags at the times of page load."
+msgstr "2. Notez que l’extension n’effectue aucun changement dans la base de données. Elle remplace dynamiquement les balises au moment du chargement de page."
+
+#: seo-optimized-images-settings.php:264
+msgid "Pricing"
+msgstr "Tarifs"
+
+#: seo-optimized-images-settings.php:265
+msgid "We have 2 packages"
+msgstr "Nous avons 2 formules"
+
+#: seo-optimized-images-settings.php:267
+msgid "SEO - Business package"
+msgstr "SEO - Formule Business"
+
+#: seo-optimized-images-settings.php:269
+msgid "SEO - Business with WooCommerce package"
+msgstr "SEO - Business avec formule WooCommerce"
+
+#: seo-optimized-images-settings.php:274
+msgid "How to purchase"
+msgstr "Comment acheter"
+
+#: seo-optimized-images-settings.php:276
+msgid "Looking forward to work with you"
+msgstr "Nous sommes impatients de travailler avec vous"
+
+#: seo-optimized-images-settings.php:277
+msgid "Thousands of users have enjoyed using our plugin."
+msgstr "Des milliers d’utilisateurs et d’utilisatrices apprécient l'utilisation de notre extension."
+
+#: seo-optimized-images-settings.php:293
+msgid "Upgrade to PRO version"
+msgstr "Passer à la version PRO   "
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://webriti.com"
+msgstr "https://webriti.com"
+
+#. Description of the plugin
+msgid "The **SEO Optimized Images** plugin lets you dynamically insert SEO Friendly alt attributes and title attributes to your Images. Simply activate the plugin, provide the pattern, and you are ready to go."
+msgstr "L’extension **SEO Optimized Images** vous permet d’insérer dynamiquement des attributs alt optimisés pour le SEO de vos images. Activez simplement l’extension, fournissez une structure et vous êtes prêt·e."
+
+#. Author of the plugin
+msgid "priyanshu.mittal"
+msgstr "priyanshu.mittal"

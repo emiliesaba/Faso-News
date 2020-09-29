@@ -1,0 +1,1131 @@
+/* Elementare OnePage style */
+/*--------------------------------------------------------------
+## Elementare OnePage
+--------------------------------------------------------------*/
+section.elementare_aboutus,
+section.elementare_features,
+section.elementare_skills,
+section.elementare_cta,
+section.elementare_services,
+section.elementare_blog,
+section.elementare_team,
+section.elementare_contact {
+    position: relative;
+    padding: 6em 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+section.elementare_aboutus,
+section.elementare_features,
+section.elementare_skills,
+section.elementare_cta,
+section.elementare_services,
+section.elementare_blog,
+section.elementare_team,
+section.elementare_contact {
+	width: 100%;
+    margin: 0 auto;
+    z-index: 99;
+}
+.elementare_aboutus_color,
+.elementare_features_color,
+.elementare_cta_color,
+.elementare_skills_color,
+.elementare_services_color,
+.elementare_blog_color,
+.elementare_team_color,
+.elementare_contact_color {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+}
+.elementare_action_aboutus,
+.elementare_action_features,
+.elementare_action_skills,
+.elementare_action_cta,
+.elementare_action_services,
+.elementare_action_blog,
+.elementare_action_team,
+.elementare_action_contact {
+    padding: 0 5em;
+    margin: 0 auto;
+    position: relative;
+}
+.elementare_action_services {
+	padding: 0;
+}
+.aboutus_columns,
+.services_columns {
+    width: 100%;
+    margin-top: 5em;
+    display: flex;
+}
+.features_columns,
+.skills_columns,
+.blog_columns,
+.team_columns,
+.contact_columns {
+    margin: 0 auto;
+    max-width: 1190px;
+    margin-top: 5em;
+}
+.cta_columns {
+	margin: 0 auto;
+    max-width: 920px;
+    margin-top: 5em;
+}
+.elementare_aboutus_color {
+    background-color: #f5f5f5;
+}
+.elementare_features_color {
+    background-color: #121212;
+}
+.elementare_skills_color {
+    background-color: #f5f5f5;
+}
+.elementare_cta_color {
+    background-color: #121212;
+}
+.elementare_services_color {
+    background-color: #f5f5f5;
+}
+.elementare_blog_color {
+    background-color: #f5f5f5;
+}
+.elementare_team_color {
+    background-color: #f5f5f5;
+}
+.elementare_contact_color {
+    background-color: #f5f5f5;
+}
+.elementareButton.aboutus,
+.elementareButton.aboutus:hover,
+.elementareButton.aboutus:focus,
+.elementareButton.aboutus:active {
+	background-color: transparent;
+	margin-top: 1.5em;
+}
+.elementareButton.aboutus a {
+	background-color: #6ee004;
+    padding: 0.8em 1.8em;
+	margin: 0;
+	-o-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+.elementareButton.aboutus a:hover,
+.elementareButton.aboutus a:focus,
+.elementareButton.aboutus a:active {
+	background-color: #121212;
+}
+.elementare_main_text {
+	text-align: center;
+    font-size: 4em;
+    letter-spacing: -2px;
+	line-height: 1;
+	position: relative;
+	margin: 0;
+    margin-bottom: 0.2em;
+}
+.title-absolute {
+	position: absolute;
+    font-size: 25em;
+    line-height: 1;
+    opacity: 0.1;
+    text-transform: uppercase;
+    font-weight: bold;
+    left: -130px;
+	top: -70px;
+    pointer-events: none;
+	z-index: 0;
+	letter-spacing: -10px;
+	display: flex;
+	width: 50%;
+}
+.elemMask {
+	height: 2px;
+    width: 60px;
+    margin: 1.2em auto;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #6ee004;
+}
+.elemMask:after {
+	content: '';
+    display: block;
+    background-color: #6ee004;
+	width: 11px;
+    height: 11px;
+    margin: 0 auto;
+    top: -6px;
+    position: relative;
+    transform: rotate(45deg);
+	border-radius: 3px;
+}
+.elementare_subtitle {
+	text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+	margin-top: 0;
+}
+.aboutus_columns_three {
+	float: left;
+	width: 50%;
+	-webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    position: relative;
+}
+.one.aboutus_columns_three {
+	padding: 0 5%;
+	text-align: right;
+}
+.two.aboutus_columns_three img {
+    display: block;
+    margin: 0 auto;
+}
+.aboutus_columns_three .aboutInner,
+.aboutus_columns_three .aboutInnerImage {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+
+.aboutus_columns_three.one h3 {
+    font-size: 2.5em;
+    letter-spacing: -2px;
+    line-height: 1.4;
+    margin: 0;
+	margin-bottom: 0.5em;
+	font-weight: 400;
+}
+
+section.elementare_aboutus.noImage .aboutus_columns_three {
+	width: 100%;
+	text-align: center;
+}
+.features_columns_single {
+	float: left;
+	text-align: center;
+	box-shadow: 0px 14px 36px 0px rgba(0, 0, 0, 0.2);
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #6ee004;
+}
+.features_columns_single.one {
+	width: 100%;
+	padding: 5em;
+}
+.features_columns_single.two {
+	width: 48%;
+	padding: 5em;
+	margin: 1em 1%;
+}
+.features_columns_single.three {
+	width: 31.3333%;
+    padding: 4em 2em;
+	margin: 1em 1%;
+}
+.features_columns_single.four {
+	width: 23%;
+	padding: 3em 1.5em;
+	margin: 1em 1%;
+}
+
+.features_columns_single .featuresIcon i {
+	font-size: 35px;
+    background-color: #f5f5f5;
+    color: #121212;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+	box-shadow: 0px 14px 36px 0px rgba(0, 0, 0, 0.2);
+	-o-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.features_columns_single:hover .featuresIcon i,
+.features_columns_single:focus .featuresIcon i,
+.features_columns_single:active .featuresIcon i {
+	background-color: #121212;
+    color: #f5f5f5;
+}
+
+.features_columns_single h3 {
+	letter-spacing: -1px;
+    font-size: 1.6em;
+}
+
+.elementareSkill {
+	float: left;
+	width: 50%;
+	padding: 1.5em 2em;
+	margin: 0.5em 0;
+	position: relative;
+	overflow: hidden;
+}
+.elementareSkill:nth-child(2n+1) {
+    clear: both;
+}
+.skillTop .skillName {
+	float: left;
+	font-size: 18px;
+    letter-spacing: 2px;
+	font-weight: bold;
+}
+.skillTop .skillNameUnder {
+	position: absolute;
+    opacity: 0.1;
+    font-size: 3em;
+    top: 15px;
+    left: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.skillTop .skillValue {
+	float: right;
+    line-height: 1;
+	position: relative;
+	opacity: 0;
+    bottom: 15px;
+	-o-transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+    transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+}
+.skillTop .skillValue span {
+	font-size: 20px;
+	margin: 0 5px;
+}
+.skillTop .skillValue i {
+	font-style: normal;
+}
+.skillBottom {
+    width: 100%;
+	position: relative;
+	margin-top: 0.5em;
+}
+.skillBottom .skillBar {
+	position: relative;
+    width: 100%;
+    height: 2px;
+    background: #121212;
+    opacity: 0.1;
+}
+.skillBottom .skillRealBar {
+	height: 2px;
+    background: #121212;
+    position: relative;
+    top: -2px;
+	width: 0%;
+	-o-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -webkit-transition: width 1s ease-in-out;
+    transition: width 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.skillBottom .skillRealBarCyrcle {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #121212;
+    right: -6px;
+    top: -6px;
+	border-radius: 2px;
+    transform: rotate(45deg);
+	-o-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    -webkit-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.cta_columns .ctaIcon i {
+	font-size: 35px;
+	text-align: center;
+    background-color: #f5f5f5;
+    color: #121212;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    box-shadow: 0px 14px 36px 0px rgba(0, 0, 0, 0.2);
+    -o-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+section.elementare_cta:hover .cta_columns .ctaIcon i,
+section.elementare_cta:focus .cta_columns .ctaIcon i,
+section.elementare_cta:active .cta_columns .ctaIcon i {
+	background-color: #121212;
+    color: #f5f5f5;
+}
+.cta_columns {
+    margin-top: 0;
+    padding: 3em 0;
+}
+.cta_columns .ctaText {
+    float: left;
+}
+.cta_columns .ctaButton {
+    float: right;
+}
+.cta_columns .ctaIcon,
+.cta_columns .ctaPhrase,
+.cta_columns .ctaButton {
+    display: inline-block;
+}
+.ctaPhrase h3 {
+    font-size: 20px;
+}
+.ctaPhrase h3, .ctaPhrase p {
+	margin: 0;
+}
+.cta_columns .ctaIcon {
+	margin: 0 2em;
+}
+section.elementare_cta.noDesc .ctaIcon {
+	vertical-align: middle;
+}
+section.elementare_cta.withDesc .ctaIcon {
+	vertical-align: bottom;
+}
+
+.services_columns_single {
+	float: left;
+	width: 50%;
+    position: relative;
+}
+.services_columns_single.one {
+	display: table;
+    table-layout: fixed;
+}
+.services_columns_single.two {
+	display: table;
+    table-layout: fixed;
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+	position: relative;
+	box-shadow: -2px 10px 70px 0 rgba(0,0,0,0.8);
+}
+.services_columns_single.two .serviceColumnSingleColor {
+	position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #121212;
+    opacity: 0.6;
+}
+.singleService {
+	width: 100%;
+    padding: 0 5% 4em;
+}
+.singleService:last-child {
+	padding: 0 5% 0;
+}
+.serviceIcon {
+	float: left;
+}
+.serviceIcon i {
+	font-size: 35px;
+    text-align: center;
+    background-color: #121212;
+    color: #f5f5f5;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+	box-shadow: 0px 14px 36px 0px rgba(0, 0, 0, 0.2);
+    -o-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+.services_columns .singleService:hover .serviceIcon i,
+.services_columns .singleService:focus .serviceIcon i,
+.services_columns .singleService:active .serviceIcon i {
+	background-color: #f5f5f5;
+    color: #121212;
+}
+.serviceText {
+	float: left;
+	position: relative;
+    width: calc(100% - 70px);
+    padding-left: 2em;
+}
+.serviceText:after {
+	content: "";
+    position: absolute;
+    background-color: #6ee004;
+    width: 10%;
+    height: 2px;
+    bottom: -2em;
+}
+.singleService:last-child .serviceText:after {
+	display: none;
+}
+.services_columns_single .serviceContent {
+	position: relative;
+	color: #f5f5f5;
+	padding: 0 10%;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 100%;
+}
+.services_columns_single .singleServiceContent {
+	display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.services_columns_single .serviceContent h3 {
+	font-size: 3em;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    margin: 0;
+	font-weight: 400;
+}
+.services_columns_single .serviceContent p {
+	margin: 2em 0 0;
+    font-size: 16px;
+}
+.serviceText h3 {
+	margin: 0;
+    margin-bottom: 0.6em;
+    font-size: 1.4em;
+}
+.serviceText p {
+	margin: 0;
+}
+.elementareBlogSingle {
+    float: left;
+    width: 33.3333%;
+    padding: 1em;
+}
+.elementareBlogSingle:nth-child(3n+1) {
+    clear: both;
+}
+.elementareBlogSingle h2 {
+	margin: 0.8em 0 0;
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+.elementareBlogSingle h2 a,
+.elementareBlogSingle h2 a:hover,
+.elementareBlogSingle h2 a:focus,
+.elementareBlogSingle h2 a:active {
+	color: #13293d;
+}
+.blog_columns .goToBlog {
+    clear: both;
+    text-align: center;
+    margin-top: 3em;
+    display: table;
+    margin: 3em auto 0;
+}
+.elementareBlogSingle .entry-meta > span {
+	margin-right: 0.5em;
+}
+.team_columns {
+	text-align: center;
+}
+.team_columns .elementareTeamSingle {
+	float: left;
+	text-align: center;
+    padding: 1em;
+}
+.team_columns .elementareTeamSingle:first-child:nth-last-child(1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(2),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(2) ~ .elementareTeamSingle {
+	max-width: 350px;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    display: inline-table;
+}
+.team_columns .elementareTeamSingle:first-child:nth-last-child(3),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(3) ~ .elementareTeamSingle {
+	width: 33.3333%;
+}
+.team_columns .elementareTeamSingle:first-child:nth-last-child(4),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(4) ~ .elementareTeamSingle {
+	width: 25%;
+}
+.team_columns .elementareTeamSingle:first-child:nth-last-child(5),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(5) ~ .elementareTeamSingle {
+	width: 33.3333%;
+}
+.team_columns .elementareTeamSingle:first-child:nth-last-child(6),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(6) ~ .elementareTeamSingle {
+	width: 33.3333%;
+}
+.team_columns .elementareTeamSingle:first-child:nth-last-child(7),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(7) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(8),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(8) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(9),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(9) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(10),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(10) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(11),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(11) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(12),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(12) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(13),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(13) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(14),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(14) ~ .elementareTeamSingle,
+.team_columns .elementareTeamSingle:first-child:nth-last-child(15),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(15) ~ .elementareTeamSingle {
+	width: 33.3333%;
+}
+.team_columns .elementareTeamSingle:first-child:nth-last-child(5):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(5) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(6):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(6) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(7):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(7) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(8):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(8) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(9):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(9) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(10):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(10) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(11):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(11) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(12):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(12) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(13):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(13) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(14):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(14) ~ .elementareTeamSingle:nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(15):nth-child(3n+1),
+.team_columns .elementareTeamSingle:first-child:nth-last-child(15) ~ .elementareTeamSingle:nth-child(3n+1) {
+	clear: both;
+}
+.team_columns .elementareTeamSingle img {
+	width: 100%;
+	display: block;
+    box-shadow: 0px 14px 36px 0px rgba(0, 0, 0, 0.2);
+}
+.team_columns .elementareTeamSingle .elementareTeamName {
+	font-size: 1.6em;
+    font-weight: 700;
+    margin: 0.5em 0;
+    letter-spacing: -1px;
+}
+.team_columns .elementareTeamSingle {
+	position: relative;
+	top: 0;
+	-o-transition: top .2s ease-in-out;
+    -moz-transition: top .2s ease-in-out;
+    -webkit-transition: top .2s ease-in-out;
+    transition: top .2s ease-in-out;
+}
+.team_columns .elementareTeamSingle:hover,
+.team_columns .elementareTeamSingle:focus,
+.team_columns .elementareTeamSingle:active {
+	top: -20px;
+}
+.team_columns .elementareTeamSingle .elementareTeamDesc {
+	position: relative;
+	padding-top: 0.5em;
+}
+.team_columns .elementareTeamSingle .elementareTeamDesc:before {
+	content: "";
+    position: absolute;
+    width: 10%;
+    border-top: 2px dashed;
+	border-color: #6ee004;
+    height: 2px;
+    top: 0;
+    left: 0;
+    right: 0;
+	margin: 0 auto;
+}
+.elementareCompanyAddress1,
+.elementareCompanyAddress2,
+.elementareCompanyAddress3,
+.elementareCompanyPhone,
+.elementareCompanyFax,
+.elementareCompanyEmail {
+	position: relative;
+	text-align: left;
+	margin-left: 40px;
+}
+.elementareCompanyAddress1Icon,
+.elementareCompanyPhoneIcon,
+.elementareCompanyFaxIcon,
+.elementareCompanyEmailIcon {
+	width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+	position: absolute;
+    left: -40px;
+}
+.elementareCompanyAddress1 p,
+.elementareCompanyAddress2 p,
+.elementareCompanyAddress3 p,
+.elementareCompanyPhone p,
+.elementareCompanyFax p,
+.elementareCompanyEmail p {
+	margin: 0 0 0.8em 0;
+}
+.elementareCompanyPhone a,
+.elementareCompanyPhone a:hover,
+.elementareCompanyPhone a:focus,
+.elementareCompanyPhone a:active,
+.elementareCompanyEmail a,
+.elementareCompanyEmail a:hover,
+.elementareCompanyEmail a:focus,
+.elementareCompanyEmail a:active {
+	text-decoration: underline;
+	color: inherit !important;
+}
+.elementareCompanyName h3 {
+    font-size: 2em;
+}
+.elementare_contact.withForm .elementareContactForm {
+	width: 50%;
+	float: left;
+	padding: 3em 5em;
+}
+.elementare_contact.withForm .elementareContactField {
+	width: 50%;
+	float: right;
+	padding: 0 2em;
+}
+.elementare_contact.withForm .elementareContactForm {
+	text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0px 14px 36px 0px rgba(0, 0, 0, 0.2);
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #6ee004;
+}
+
+.elementare_contact.withForm .elementareContactForm input[type="text"],
+.elementare_contact.withForm .elementareContactForm input[type="email"],
+.elementare_contact.withForm .elementareContactForm input[type="url"],
+.elementare_contact.withForm .elementareContactForm input[type="password"],
+.elementare_contact.withForm .elementareContactForm input[type="search"],
+.elementare_contact.withForm .elementareContactForm input[type="number"],
+.elementare_contact.withForm .elementareContactForm input[type="tel"],
+.elementare_contact.withForm .elementareContactForm input[type="range"],
+.elementare_contact.withForm .elementareContactForm input[type="date"],
+.elementare_contact.withForm .elementareContactForm input[type="month"],
+.elementare_contact.withForm .elementareContactForm input[type="week"],
+.elementare_contact.withForm .elementareContactForm input[type="time"],
+.elementare_contact.withForm .elementareContactForm input[type="datetime"],
+.elementare_contact.withForm .elementareContactForm input[type="datetime-local"],
+.elementare_contact.withForm .elementareContactForm input[type="color"],
+.elementare_contact.withForm .elementareContactForm textarea {
+	width: 100%;
+}
+.elementare_contact.withForm .elementareContactForm textarea {
+	max-height: 150px;
+}
+.contact_columns {
+    position: relative;
+}
+.elementareContactIcon {
+	position: absolute;
+	bottom: 25px;
+	right: -150px;
+	font-size: 20em;
+    opacity: 0;
+    line-height: 1;
+	transform: rotate(15deg);
+    -o-transition: opacity .3s ease-in-out, right .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out, right .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out, right .3s ease-in-out;
+    transition: opacity .3s ease-in-out, right .3s ease-in-out;
+}
+/* Elementare Section Map */
+ul.elementare_sectionmap {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    z-index: 999;
+    transform: translate(0%, -50%);
+}
+ul.elementare_sectionmap li {
+    padding: 0;
+    position: relative;
+}
+ul.elementare_sectionmap li a {
+    display: block;
+    outline: none;
+    width: 15px;
+    height: 28px;
+    line-height: 28px;
+    text-align: right;
+    position: relative;
+}
+ul.elementare_sectionmap li a span.box {
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #6ee004;
+    position: relative;
+    display: inline-block;
+    z-index: 9;
+    -o-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+ul.elementare_sectionmap li:hover a span.box,
+ul.elementare_sectionmap li:focus a span.box,
+ul.elementare_sectionmap li:active a span.box,
+ul.elementare_sectionmap li.current-section a span.box {
+	background-color: #6ee004;
+}
+ul.elementare_sectionmap li span.text {
+	position: absolute;
+    right: 25px;
+    top: 0px;
+    line-height: inherit;
+    width: auto;
+    white-space: nowrap;
+	z-index: -1;
+	font-size: 14px;
+	background-color: #6ee004;
+    color: #fdfffc;
+    padding: 0 1.5em;
+	visibility: hidden;
+    opacity: 0;
+	-webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    transition: visibility 0s linear 0.2s,opacity 0.2s linear, transform 0.2s linear;
+}
+ul.elementare_sectionmap li:hover span.text,
+ul.elementare_sectionmap li:focus span.text,
+ul.elementare_sectionmap li:active span.text {
+	visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+section.elementare_aboutus .hentry {
+	margin: 0;
+	padding: 0;
+	border-bottom-width: 0px;
+}
+@media all and (max-width: 1366px) {
+	.cta_columns {
+		padding: 2em 0;
+	}
+}
+@media all and (max-width: 850px) {
+	body.page-template-template-onepage #primary.content-area {
+		padding: 0;
+	}
+	.aboutus_columns_three.one {
+		padding: 0 0 3em;
+		text-align: center;
+	}
+	.aboutus_columns_three {
+		float: none;
+		width: 100%;
+	}
+	.aboutus_columns, .services_columns, .cta_columns .ctaIcon, .cta_columns .ctaPhrase, .cta_columns .ctaButton {
+		display: block;
+	}
+	.features_columns_single.four {
+		width: 50%;
+	}
+	.cta_columns .ctaText {
+		float: none;
+		text-align: center;
+	}
+	.cta_columns .ctaButton {
+		float: none;
+		padding: 0 2em;
+		text-align: center;
+		margin-top: 2em;
+	}
+	.cta_columns .ctaPhrase {
+		margin-top: 1.5em;
+	}
+	.services_columns_single {
+		float: none;
+		width: 100%;
+	}
+	.services_columns_single .serviceContent {
+		height: auto !important;
+		padding: 5em 10%;
+		text-align: center;
+	}
+	.services_columns_single.two {
+		margin-top: 3em;
+	}
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(4),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(4) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15) ~ .elementareTeamSingle {
+		width: 50%;
+	}
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(4):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(4) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14) ~ .elementareTeamSingle:nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15):nth-child(2n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15) ~ .elementareTeamSingle:nth-child(2n+1) {
+		clear: both;
+	}
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14) ~ .elementareTeamSingle:nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15):nth-child(3n+1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15) ~ .elementareTeamSingle:nth-child(3n+1) {
+		clear: none;
+	}
+}
+@media all and (max-width: 768px) {
+	ul.elementare_sectionmap {
+		display: none;
+	}
+	.features_columns_single.one,
+	.features_columns_single.two,
+	.features_columns_single.three,
+	.features_columns_single.four {
+		width: 100%;
+		padding: 3em 0;
+		margin: 1em 0;
+	}
+	.elementareSkill, .elementareBlogSingle {
+		float: none;
+		width: 100%;
+	}
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(3),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(3) ~ .elementareTeamSingle {
+		width: 100%;
+	}
+	.elementare_contact.withForm .elementareContactForm {
+		text-align: center;
+	}
+	.elementare_contact.withForm .elementareContactField,
+	.elementare_contact.withForm .elementareContactForm {
+		width: 100%;
+		float: none;
+	}
+	.elementare_action_aboutus, .elementare_action_features,
+	.elementare_action_skills, .elementare_action_cta,
+	.elementare_action_services, .elementare_action_blog,
+	.elementare_action_team, .elementare_action_contact {
+		padding: 0 3em;
+	}
+	.title-absolute {
+		font-size: 20em;
+	}
+}
+@media all and (max-width: 767px) {
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(1),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(2),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(2) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(4),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(4) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(5) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(6) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(7) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(8) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(9) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(10) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(11) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(12) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(13) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(14) ~ .elementareTeamSingle,
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15),
+	.team_columns .elementareTeamSingle:first-child:nth-last-child(15) ~ .elementareTeamSingle {
+		width: 100%;
+	}
+	.elementare_action_aboutus, .elementare_action_features,
+	.elementare_action_skills, .elementareo_action_cta,
+	.elementare_action_services, .elementare_action_blog,
+	.elementare_action_team, .elementare_action_contact {
+		padding: 0 2em;
+	}
+	.features_columns,
+	.skills_columns,
+	.blog_columns,
+	.team_columns,
+	.contact_columns,
+	.aboutus_columns,
+	.services_columns {
+		margin-top: 4em;
+	}
+	.flexslider .slides > li .flexText .inside span {
+		letter-spacing: 0px;
+		padding-top: 1em;
+	}
+	.flexslider .slides > li .flexText .inside h2,
+	.flexslider .slides > li .flexText .inside span {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+@media all and (max-width: 559px) {
+	.elementare_action_aboutus, .elementare_action_features,
+	.elementare_action_skills, .elementare_action_cta,
+	.elementare_action_services, .elementare_action_blog,
+	.elementare_action_team, .elementare_action_contact {
+		padding: 0 1em;
+	}
+	.elementare_contact.withForm .elementareContactField,
+	.elementare_contact.withForm .elementareContactForm {
+		padding: 2em 1em;
+	}
+	.serviceIcon {
+		float: none;
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+	.serviceText {
+		float: none;
+		position: relative;
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.serviceText:after {
+		display: none;
+	}
+	.services_columns_single .serviceContent {
+		padding: 5em 5%;
+	}
+	.features_columns,
+	.skills_columns,
+	.blog_columns,
+	.team_columns,
+	.contact_columns,
+	.aboutus_columns,
+	.services_columns {
+		margin-top: 2em;
+	}
+	.elementare_main_text {
+		font-size: 2.5em;
+	}
+	.aboutus_columns_three.one h3 {
+		font-size: 1.5em;
+	}
+	.contact_columns .elementareContactForm input:not([type="submit"]),
+	.contact_columns .elementareContactForm textarea {
+		max-width: 100%;
+	}
+}
+@media all and (max-width: 450px) {
+	.elementare_action_aboutus, .elementare_action_features,
+	.elementare_action_skills, .elementare_action_cta,
+	.elementare_action_services, .elementare_action_blog,
+	.elementare_action_team, .elementare_action_contact {
+		padding: 0 0.5em;
+	}
+	.elementareContactIcon {
+		display: none;
+	}
+	.flexslider .slides > li .flexText .inside h2 {
+		font-size: 1.5em;
+	}
+}

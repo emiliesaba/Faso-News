@@ -1,0 +1,373 @@
+/*
+Theme Name: Shk Corporate
+Theme URI: https://webriti.com/shk-corporate-child-version-details-page/
+Author: webriti
+Author URI: https://www.webriti.com
+Description: A Business theme which is ideal for creating a corporate or any other type of business website. SHK Corporate theme is a child theme of the Appointment WordPress theme. The theme uses the blue color variation that WordPress uses as default. You will find 3 separate header sidebars, which will be placed just above the menu section. The top header section is very useful when it comes to adding social media links, email IDs, contact information and any other important information that you want to share. All you need to do is add a few widgets and you are good to go.
+Tags: full-width-template, threaded-comments, two-columns,  right-sidebar, sticky-post, custom-menu, translation-ready, blog, footer-widgets, featured-images
+Template: appointment
+Version: 2.2.1
+Requires at least: 4.5
+Tested up to: 5.5
+Requires PHP: 5.4
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: shk-corporate
+*/
+/*===================================================================================*/
+/*  Navbar 5
+/*===================================================================================*/
+.navbar.navbar5{padding: 14px 0;border: none;}
+.navbar5 .navbar-brand {
+    padding: 11px 0px;
+    margin-right:0;
+}
+@media (max-width: 767px){
+.navbar-default .navbar-nav li.open .dropdown-menu > li > a ,.navbar-default .navbar-nav li.open .dropdown-menu > li > a:focus{
+    color: #fff;
+}
+}
+@media (min-width:1200px){
+.navbar5 .navbar-header::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    display: block;
+    background-color: inherit;
+    z-index: -1;
+}
+  .head-contact-social {
+    float: left;
+  }
+.navbar5 .navbar-header .navbar-brand::after,
+.navbar5 .navbar-header::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: inherit;
+    -webkit-transform-origin: bottom;
+    -moz-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    -o-transform-origin: bottom;
+    transform-origin: bottom;
+    -webkit-transform: skew(-40deg);
+    -moz-transform: skew(-40deg);
+    -ms-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    transform: skew(-40deg);
+    z-index: -1;
+    width: 500px;
+}}
+.navbar5 .navbar-header .navbar-brand::after {
+    left: 467px;
+    right: 18px;
+    width: 15px;
+    z-index: 0;
+    background-color: #21202e;
+    pointer-events: none;
+}
+
+.navbar5 .top-header-widget::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    background-color: #00ffff;
+    z-index: -1;
+}
+.navbar5 #top-header-sidebar-right {
+    float: unset;
+    text-align: right;
+}
+@media (min-width: 1470px){
+.top-header-widget .container,.navbar5 .container {
+    width: 1450px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1470px) {
+  .navbar5 .navbar-header::after {width:370px;}
+  .navbar5 .navbar-header .navbar-brand::after {left: 340px;}
+}
+.top-header-widget ul {
+    padding: 0 25px 0 25px;
+}
+
+@media (min-width: 1200px){
+ .navbar5 .col-lg-5 {position: initial;display: table-header-group;}
+   } 
+
+/*Project Pagination Scroll*/
+.project-scroll-btn li { background: #383838; color: #ffffff;padding: 0; }
+.project-scroll-btn li:hover { background: #337ab7; }
+.project-scroll-btn li a { color: #ffffff; }
+.project-scroll-btn li a:hover { color: #ffffff; }
+
+/*Project Pagination Scroll*/
+.project-scroll-btn { margin-bottom: 50px; margin-right: 0px; overflow: hidden; padding: 0 0 0px; text-align: center; }
+.project-scroll-btn li:first-child { margin-left: 0; }
+.project-scroll-btn li {
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    -moz-border-radius: 50px; 
+    -webkit-border-radius: 50px; 
+    border-radius: 50px;
+}
+.project-scroll-btn li a { padding: 0; }
+a.project-prev:before { font-family: "FontAwesome"; font-size: 30px; line-height: 1.3; display: inline-block; content: '\f104'; }
+a.project-next:before { font-family: "FontAwesome"; font-size: 30px; line-height: 1.3; display: inline-block; content: '\f105'; }
+
+/* This Media for Project scroll*/
+.carousel-control { width:  4%; }
+.carousel-control.left,  .carousel-control.right { margin-left:15px; background-image:none; }
+@media (max-width: 767px) {
+    .carousel-inner .active.left { left: -100%; }
+    .carousel-inner .next { left:  100%; }
+    .carousel-inner .prev { left: -100%; }
+    .active > div { display:none; }
+    .active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+    .carousel-inner .active.left { left: -50%; }
+    .carousel-inner .next { left:  50%; }
+    .carousel-inner .prev { left: -50%; }
+    .active > div { display:none; }
+    .active > div:first-child { display:block; }
+    .active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+    .carousel-inner .active.left { left: -25%; }
+    .carousel-inner .next { left:  25%; }
+    .carousel-inner .prev { left: -25%; }   
+}
+
+/*Header Widget and Top contact detail Section--------------------------------------------------------------------------*/
+@media (min-width: 1200px){
+/*.top-header-widget .container{width:1470px;}*/
+.top-header-widget #top-header-sidebar-right{float: right;}
+}
+.top-header-widget .header-contact-info li a:hover{color:#e3e3e3;}
+/*.navbar5 .logo-link-url {display: block;}*/
+.navbar5 .navbar-brand {margin-right: 0px;}
+.navbar5 .appointment_title_head,.navbar5 p {
+    color: #FFFFFF;
+}
+.top-header-widget h3, 
+.top-contact-detail-section h3 {
+    font-family: 'Open Sans';
+	color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    word-wrap: break-word;
+}
+.top-header-widget h3 { margin: 0 0 22px; }
+.top-contact-detail-section h3 { margin: 20px 0 20px; }
+.top-header-widget a, 
+.top-header-widget > ul > li > a, 
+.top-contact-detail-section a, 
+.top-contact-detail-section > ul > li > a { color: #727272; }
+.top-header-detail label, 
+.top-contact-detail-section label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.top-header-detail select, 
+.top-contact-detail-section select { 
+	margin: 15px 10px; 
+}
+.top-header-widget label, 
+.top-contact-detail-section label { 
+	color:#fff; 
+	margin: 0 0 25px; 
+}
+.top-header-widget { padding:10px 0; }
+.top-header-widget a, 
+.top-contact-detail-section a, 
+.top-contact-detail-section a:hover,
+.top-contact-detail-section ul > li > a:hover, 
+.top-contact-detail-section .recentcomments a:hover  { 
+	color:#ffffff; 
+}
+.top-header-widget ul { padding: 0; margin: 0 0 50px; list-style: none; }
+.top-contact-detail-section ul { padding: 0; margin: 0 0 20px; list-style: none; }
+.top-header-widget li, 
+.top-contact-detail-section li { 
+	padding: 0px 0px 10px; 
+	font-size: 14px;
+	line-height: 22px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+	color: #fff; 
+	list-style: none;
+}
+.top-header-widget .rssSummary, 
+.top-header-widget .textwidget, 
+.top-header-widget .textwidget p, 
+.top-header-widget .textwidget a {
+	color: #D6D6D6; 
+}
+.top-contact-detail-section .rssSummary, 
+.top-contact-detail-section .textwidget, 
+.top-contact-detail-section .textwidget p, 
+.top-contact-detail-section .textwidget a {
+	color: #ffffff; 
+}
+.top-header-widget p.wp-caption-text, 
+.top-contact-detail-section p.wp-caption-text { 
+	color: #727272; 
+}
+.top-header-widget li a:before, 
+.top-contact-detail-section li a:before, 
+.sidebar-widget li a:before, 
+.footer-widget-column li a:before {
+    content: "\f192";
+    font-family: FontAwesome;
+    margin-right: 10px;
+    margin-left: 1px;
+    font-size: 13px;
+}	
+.top-header-widget span.comment-author-link, 
+.top-header-widget .rssSummary, 
+.top-header-widget span.rss-date, 
+.top-contact-detail-section span.comment-author-link, 
+.top-contact-detail-section .rssSummary, 
+.top-contact-detail-section span.rss-date  {
+    font-size: 15px;
+	line-height: 22px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}	
+.top-header-widget .rssSummary, 
+.top-contact-detail-section .rssSummary { 
+	color: #ffffff; 
+}	
+.top-header-widget cite, 
+.top-header-widget span.rss-date , 
+.top-contact-detail-section cite, 
+.top-contact-detail-section span.rss-date { 
+	color:#D6D6D6; 
+}	
+.top-header-widget form.appointment-search, 
+.top-contact-detail-section form.appointment-search, 
+.top-header-widget .textwidget, 
+.top-contact-detail-section .textwidget { 
+	margin: 0 0 50px; 
+}
+.top-header-widget select, 
+.top-contact-detail-section select { 
+	display: block; 
+	min-height: 40px; 
+	margin: 0 0 50px; 
+} 
+.top-header-widget .textwidget select, 
+.top-contact-detail-section .textwidget select { 
+	margin: 0px; 
+}
+.top-header-widget .tagcloud, 
+.top-contact-detail-section .tagcloud { 
+	padding: 0 0 40px; 
+}
+.top-header-widget .tagcloud a {
+    background-color: #6B6B6B;
+    color: #ffffff;
+    border: 1px solid #6B6B6B;
+}
+.top-contact-detail-section .tagcloud a, 
+.top-contact-detail-section .tagcloud a:hover {
+    background-color: #ffffff;
+    color: #727272;
+    border: 1px solid #ffffff;
+}
+.top-header-widget ul.icons-medium, 
+.top-contact-detail-section ul.icons-medium { padding: 0; margin: 0 0 50px; list-style: none; }
+.top-header-widget ul.icons-medium li, 
+.top-contact-detail-section ul.icons-medium li { display: inline-block; border-bottom: 0 none; padding: 0 0 5px; }
+.top-header-widget ul.icons-medium li a:before,
+.top-contact-detail-section ul.icons-medium li a:before {
+    content: "\f192";
+    font-family: FontAwesome;
+    margin-right: 10px;
+    margin-left: 1px;
+    font-size: 13px;
+	display: none;
+}
+.top-header-widget .calendar_wrap table, 
+.top-contact-detail-section .calendar_wrap table { margin: 0 0 50px; }
+.top-header-widget .calendar_wrap table > caption, 
+.top-contact-detail-section .calendar_wrap table > caption  {
+	color: #ffffff; 
+}
+
+/*Service Section 1-------------------------------------------------------------------------------------------*/
+.service-section1 {
+    background: transparent;
+    margin: 0;
+    padding: 80px 0 30px;
+    width: 100%;
+}
+.service-section1 .service-area{text-align: center;margin: 0;padding: 0 20px 55px;transition: 0.3s;}
+.service-section1 .service-icon{ width: 100px;float: none;position: relative;transition: all 0.2s;transition: all 0.2s;text-align: center;margin: 0 auto 25px;}
+.service-section1 i.fa {
+    border-radius: 50%;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    line-height: 1.8;
+    padding: 5px;
+    position: relative;
+    border: 4px solid #fff;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+.service-section1 .service-area:hover i.fa {background: #f5f6fa;border: 4px solid #fff;-webkit-transform: scale3d(1.2, 1.2, 1);transform: scale3d(1.2, 1.2, 1);}
+.service-section1 .media-body h3{display: block;margin: 0 0 19px;padding: 0;}
+.service-section1 .media-body p{display: block;overflow: hidden;margin: 0px;}
+
+/*Service Section1*/
+.service-section1 i.fa {background: #337ab7;box-shadow: #337ab7 0px 0px 0px 1px;}
+.service-section1 .service-area:hover i.fa {color: #337ab7;padding:0;}
+@media only screen and (max-width: 1100px) and (min-width: 768px){
+    .navbar5 .logo-link-url {
+    display: inline-block;}
+  .navbar5 .navbar-toggle {
+    margin: 15px auto;
+}
+.navbar-default.navbar5 .navbar-header {
+padding: 10px;
+}
+}
+.navbar-default.navbar5 .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+@media only screen and (max-width: 1320px) and (min-width: 1201px){
+    .navbar-default.navbar5 .navbar-header {
+    padding: 10px;}
+    .navbar > .container .navbar-brand {
+    text-align: center;
+    float: none;}
+    .navbar-brand > img {
+    margin: 0 auto;}
+    .navbar5 .logo-link-url {
+    display: inline-block;}
+}
+}
